@@ -1,6 +1,5 @@
 import Flutter
 import UIKit
-import YotiSDKCommon
 import YotiSDKCore
 import YotiSDKDocument
 import YotiSDKFaceTec
@@ -8,7 +7,7 @@ import YotiSDKIdentityDocument
 
 public class YotiFlutterPlugin: NSObject, FlutterPlugin, YotiSDKDataSource, YotiSDKDelegate  {
 
-  public func navigationController(_ navigationController: YotiSDKCore.YotiSDKNavigationController, didFinishWithResult result: YotiSDKCommon.YotiSDKResult) {
+  public func navigationController(_ navigationController: YotiSDKCore.YotiSDKNavigationController, didFinishWithResult result: YotiSDKResult) {
       UIApplication.shared.keyWindow?.rootViewController?.dismiss(animated: true)
       
         switch result {
