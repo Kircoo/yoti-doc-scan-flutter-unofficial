@@ -2,67 +2,38 @@ PODS:
   - Flutter (1.0.0)
   - integration_test (0.0.1):
     - Flutter
-  - PPBlinkID (5.18.0)
-  - yoti_flutter (0.0.6):
+  - yoti_flutter (0.0.7):
     - Flutter
     - YotiSDKDocument
     - YotiSDKFaceCapture
     - YotiSDKFaceTec
     - YotiSDKIdentityDocument
-  - YotiDocumentCapture (4.0.1):
-    - PPBlinkID (= 5.18.0)
-  - YotiFaceCapture (5.0.1)
-  - YotiNetwork (4.0.1)
-  - YotiNFC (4.0.1)
-  - YotiSDKCommon (4.0.1):
-    - YotiNetwork (= 4.0.1)
-    - YotiSDKNetwork (= 4.0.1)
-  - YotiSDKCore (4.0.1):
-    - YotiNetwork (= 4.0.1)
-    - YotiSDKCommon (= 4.0.1)
-    - YotiSDKDesign (= 4.0.1)
-    - YotiSDKNetwork (= 4.0.1)
-  - YotiSDKDesign (4.0.1):
-    - YotiNetwork (= 4.0.1)
-    - YotiSDKCommon (= 4.0.1)
-    - YotiSDKNetwork (= 4.0.1)
-  - YotiSDKDocument (4.0.1):
-    - YotiNetwork (= 4.0.1)
-    - YotiSDKCommon (= 4.0.1)
-    - YotiSDKDesign (= 4.0.1)
-    - YotiSDKNetwork (= 4.0.1)
-  - YotiSDKFace (4.0.1):
-    - YotiNetwork (= 4.0.1)
-    - YotiSDKCommon (= 4.0.1)
-    - YotiSDKDesign (= 4.0.1)
-    - YotiSDKNetwork (= 4.0.1)
-  - YotiSDKFaceCapture (4.0.1):
-    - YotiFaceCapture (= 5.0.1)
-    - YotiNetwork (= 4.0.1)
-    - YotiSDKCommon (= 4.0.1)
-    - YotiSDKCore (= 4.0.1)
-    - YotiSDKDesign (= 4.0.1)
-    - YotiSDKFace (= 4.0.1)
-    - YotiSDKNetwork (= 4.0.1)
-  - YotiSDKFaceTec (4.0.1):
-    - YotiNetwork (= 4.0.1)
-    - YotiSDKCommon (= 4.0.1)
-    - YotiSDKCore (= 4.0.1)
-    - YotiSDKDesign (= 4.0.1)
-    - YotiSDKFace (= 4.0.1)
-    - YotiSDKNetwork (= 4.0.1)
-  - YotiSDKIdentityDocument (4.0.1):
-    - PPBlinkID (= 5.18.0)
-    - YotiDocumentCapture (= 4.0.1)
-    - YotiNetwork (= 4.0.1)
-    - YotiNFC (= 4.0.1)
-    - YotiSDKCommon (= 4.0.1)
-    - YotiSDKCore (= 4.0.1)
-    - YotiSDKDesign (= 4.0.1)
-    - YotiSDKDocument (= 4.0.1)
-    - YotiSDKNetwork (= 4.0.1)
-  - YotiSDKNetwork (4.0.1):
-    - YotiNetwork (= 4.0.1)
+  - YotiNetwork (6.0.0)
+  - YotiSDKCore (6.0.0):
+    - YotiNetwork (= 6.0.0)
+    - YotiSDKDesign (= 6.0.0)
+  - YotiSDKDesign (6.0.0)
+  - YotiSDKDocument (6.0.0):
+    - YotiNetwork (= 6.0.0)
+    - YotiSDKDesign (= 6.0.0)
+  - YotiSDKFace (6.0.0):
+    - YotiNetwork (= 6.0.0)
+    - YotiSDKDesign (= 6.0.0)
+  - YotiSDKFaceCapture (6.0.0):
+    - YotiNetwork (= 6.0.0)
+    - YotiSDKCore (= 6.0.0)
+    - YotiSDKDesign (= 6.0.0)
+    - YotiSDKFace (= 6.0.0)
+  - YotiSDKFaceTec (6.0.0):
+    - YotiNetwork (= 6.0.0)
+    - YotiSDKCore (= 6.0.0)
+    - YotiSDKDesign (= 6.0.0)
+    - YotiSDKFace (= 6.0.0)
+  - YotiSDKIdentityDocument (6.0.0):
+    - YotiNetwork (= 6.0.0)
+    - YotiSDKCore (= 6.0.0)
+    - YotiSDKDesign (= 6.0.0)
+    - YotiSDKDocument (= 6.0.0)
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
@@ -71,12 +42,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - PPBlinkID
-    - YotiDocumentCapture
-    - YotiFaceCapture
     - YotiNetwork
-    - YotiNFC
-    - YotiSDKCommon
     - YotiSDKCore
     - YotiSDKDesign
     - YotiSDKDocument
@@ -84,7 +50,6 @@ SPEC REPOS:
     - YotiSDKFaceCapture
     - YotiSDKFaceTec
     - YotiSDKIdentityDocument
-    - YotiSDKNetwork
 
 EXTERNAL SOURCES:
   Flutter:
@@ -95,24 +60,18 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/yoti_flutter/ios"
 
 SPEC CHECKSUMS:
-  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
-  integration_test: 13825b8a9334a850581300559b8839134b124670
-  PPBlinkID: bcfa15f4a9cf34b0d9e85eb35ed96721bbd48c24
-  yoti_flutter: ec6d275b3fc319b35fa9fb67cc6a12e61f84ff3d
-  YotiDocumentCapture: d836090edd05c612a1d3d25b0396808454bf065e
-  YotiFaceCapture: 0aace92ab70d391753e8db9396e1dfd83a652e3c
-  YotiNetwork: b27051153e2026e52f822d57a226708ee5df1b04
-  YotiNFC: ae6fd1c70181c4c11081a556e74a8dac09b0bd7a
-  YotiSDKCommon: 320e2afc58b34f5de0e2c415cb2360905aaadfc9
-  YotiSDKCore: 0bfc9ae309994d3861e3a33cb04f45f8842452bd
-  YotiSDKDesign: e2ea01787e45c193cb82a05029a0ff985e34a840
-  YotiSDKDocument: 6f09b396b8b02d4778f7094652c21412a319c3be
-  YotiSDKFace: fc89540c74a0c362d9a21b09df10be7a10f42f4d
-  YotiSDKFaceCapture: 256cc8507afb77b8f848eaf8ff6b597da4bdfcab
-  YotiSDKFaceTec: 34c54ebe1f9c0c3e13952dafc7756f29282837e9
-  YotiSDKIdentityDocument: 4a81d9fc88880d7b1a0b855d56a6ed8dedf77ec7
-  YotiSDKNetwork: 92be38c76f033308cd8b8992eda5f9e25cd2d287
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  integration_test: 252f60fa39af5e17c3aa9899d35d908a0721b573
+  yoti_flutter: 41188720989689c9b8bf1817fc138e75ed0c96c1
+  YotiNetwork: c57553353bd433bcec7ac724ac61ca5551a526c3
+  YotiSDKCore: 4c61f10190091897e7f1e5ffa1d258d3523ed4a9
+  YotiSDKDesign: 656c8c017739e2de25701b481fb3d7ce76dbf755
+  YotiSDKDocument: 06c07e51990a6887e9122c5ad325d7e6166c7409
+  YotiSDKFace: 84e492d0cbc7c124243328c742e64045b5e10779
+  YotiSDKFaceCapture: 9780a88a3e78d3767594a56cc595310e0f837ce4
+  YotiSDKFaceTec: 8aa78333f75c9ffd07250d56874e75a4ad98af47
+  YotiSDKIdentityDocument: a4afe6a2c10ab075a49085002f83e8476d23de35
 
-PODFILE CHECKSUM: 70d9d25280d0dd177a5f637cdb0f0b0b12c6a189
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.15.2

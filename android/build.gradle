@@ -48,10 +48,10 @@ android {
     dependencies {
         testImplementation 'org.jetbrains.kotlin:kotlin-test'
         testImplementation 'org.mockito:mockito-core:5.0.0'
-        implementation 'com.yoti.mobile.android.sdk:yoti-sdk-doc-scan:3.4.0'
-        implementation 'com.yoti.mobile.android.sdk:yoti-sdk-doc-scan-sup:3.4.0'
-        implementation 'com.yoti.mobile.android.sdk:yoti-sdk-liveness-zoom:3.4.0'
-        implementation 'com.yoti.mobile.android.sdk:yoti-sdk-facecapture-unbundled:3.4.0'
+        implementation 'com.yoti.mobile.android.sdk:yoti-sdk-doc-scan:3.5.0'
+        implementation 'com.yoti.mobile.android.sdk:yoti-sdk-doc-scan-sup:3.5.0'
+        implementation 'com.yoti.mobile.android.sdk:yoti-sdk-liveness-zoom:3.5.0'
+        implementation 'com.yoti.mobile.android.sdk:yoti-sdk-facecapture-unbundled:3.5.0'
 
     }
 
