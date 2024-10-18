@@ -1,9 +1,10 @@
 import Flutter
 import UIKit
 import YotiSDKCore
-import YotiSDKDocument
 import YotiSDKFaceTec
 import YotiSDKIdentityDocument
+import YotiSDKSupplementaryDocument
+import YotiSDKFaceCapture
 
 public class YotiFlutterPlugin: NSObject, FlutterPlugin, YotiSDKDataSource, YotiSDKDelegate  {
 
